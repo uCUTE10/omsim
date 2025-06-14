@@ -135,7 +135,7 @@ function drawProgressBar(secondsLeft) {
     progressBar.style.backgroundColor = 'red';
 }
 
-function drawGameOver(message = 'ANG TANGA MONG TAO. FOCCING YOSLES') {
+function drawGameOver(message = "ANG TANGA MONG TAO. FOCCING YOSLES") {
     clearAllTimeouts();
     timerActive = false;  // also stop timer immediately
     finalScoreElement.textContent = score;
