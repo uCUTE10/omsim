@@ -162,7 +162,7 @@ function resetGame() {
 
 function startNewRound() {
     if (sequence.length === MAX_SEQUENCE_LENGTH) {
-        drawGameOver("CONGRATS");
+        drawGameOver("CONGRATS DI KANA AMATUER TULAD NI TRICKS");
         return;
     }
 
